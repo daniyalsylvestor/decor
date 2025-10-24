@@ -1,0 +1,756 @@
+:root {
+    --secolor: #697861;
+    --color: #6b6b6b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html, body{
+    overflow-x: hidden !important;
+}
+
+.nav-effect {
+    color: var(--color);
+    transition: 0.4s;
+}
+
+.nav-effect:hover {
+    color: black;
+}
+
+main {
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+.space {
+    margin-top: 80px;
+}
+
+.car h2 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.car h5 {
+    color: var(--secolor);
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.car p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 75px;
+}
+
+.car button {
+    background-color: var(--secolor);
+    padding: 12px 35px;
+    color: white;
+    border: 0px solid transparent;
+    transition: 0.4s;
+    margin-bottom: 50px;
+}
+
+.car button:hover {
+    background-color: #6e8363;
+    padding: 12px 35px;
+    color: white;
+    border: 0px solid transparent;
+    margin-bottom: 50px;
+}
+
+.car a {
+    background-color: white;
+    padding: 14px 38px;
+    color: black;
+    border: 0px solid transparent;
+    text-decoration: none;
+    transition: 0.4s;
+    margin-bottom: 50px;
+}
+
+.car a:hover {
+    background-color: var(--secolor);
+    padding: 14px 38px;
+    color: white;
+    border: 0px solid transparent;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.delivery {
+    height: 50%;
+    background-color: var(--secolor);
+}
+
+.abc {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.abc h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.abc p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.card-1 {
+    border-radius: 0px;
+    border: 0px solid transparent;
+    position: relative;
+    transition: 1s;
+}
+
+.card-1:hover {
+    transform: scale(1.02);
+}
+
+.picture {
+    border-radius: 0px;
+}
+
+.tag {
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 14px;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.card-1:hover .tag {
+    background-color: var(--secolor);
+    color: white;
+}
+
+.tag h5 {
+    color: rgb(179, 179, 179);
+    font-weight: 600;
+}
+
+.tag h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.products h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+
+.products a {
+    font-size: 22px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    margin-right: -200px;
+    transition: 0.3s;
+}
+
+.products a:hover {
+    background-color: var(--secolor);
+    color: white;
+    border: 2px solid var(--secolor);
+}
+
+.price {
+    display: flex !important;
+    gap: 7px !important;
+}
+
+.view-product {
+    overflow: hidden;
+}
+
+.view-product {
+    border-radius: 0px;
+    border: 2px solid transparent;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.view-product h4 {
+    font-family: "League Spartan", sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.view-product h5 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.view-product span {
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: 600;
+    color: gray;
+    margin-top: -5px;
+}
+
+.view-product h6 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.view-product button {
+    width: 60px;
+    padding: 2px;
+    background-color: var(--secolor);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.product-hover:hover {
+    transition: 0.7s;
+}
+
+.product-hover:hover {
+    transform: scale(1.05);
+}
+
+.interior h1 {
+    font-size: 55px;
+    letter-spacing: 0.5px;
+    color:#3a3a3a;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.interior p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5c5c5c !important;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.interior button {
+    background-color: var(--secolor);
+    padding: 12px 35px;
+    color: white;
+    border: 0px solid transparent;
+    transition: 0.4s;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.interior button:hover{
+    background-color: #576452;
+}
+
+.star {
+    display: flex;
+    gap: 5px;
+    margin-left: -30px;
+}
+
+.star li {
+    list-style: none;
+}
+
+.news {
+    border-radius: 0px !important;
+    border: 0px solid transparent;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.news h5 {
+    font-size: 16px;
+}
+
+.news a {
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.6s;
+    line-height: 10px;
+}
+
+.news a:hover {
+    color: #6b6b6b;
+}
+
+.news p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.news img:hover {
+    transition: 1s;
+}
+
+.news img:hover {
+    transform: scale(1.05);
+}
+
+.cate {
+    margin-top: 20px;
+}
+
+.cate h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.cate a {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.cate a:hover{
+    color: black;
+    transform: translateX(10px);
+    font-weight: 600;
+} 
+
+.cate p {
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    transition: 0.4s;
+}
+
+.cate p:hover{
+    color: black;
+    transform: translateX(10px);
+    font-weight: 600;
+} 
+
+.nav-2-item{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color);
+    transition: 0.8s;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-2-item:hover{
+    color: black;
+    font-weight: 700;
+}
+.nav-2-icon{
+    font-size: 20px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.size{
+    background-color: white;
+    padding: 3px 6px;
+    color: black !important;
+    transition: 0.2s;
+}
+
+.size:hover{
+    background-color:var(--secolor);
+    padding: 3px 6px;
+    color: white !important;
+}
+
+.custom-height{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* SERVICE PAGE START */
+
+
+/* SERVICE PAGE START */
+
+
+/* SERVICE PAGE START */
+
+
+:root {
+    --secolor: #697861;
+    --color: #6b6b6b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+.nav-effect {
+    color: var(--color);
+    transition: 0.4s;
+}
+
+.nav-effect:hover {
+    color: black;
+}
+
+.card-style {
+    border-radius: 0px;
+    border: 0px solid transparent;
+    box-shadow: 4px 4px 14px -1px rgba(0, 0, 0, 0.069);
+    padding: 50px 20px;
+    height: 370px;
+    transition: 0.6s;
+}
+
+.card-style:hover {
+    background-color: var(--secolor);
+    color: white;
+}
+
+.card-style h4 {
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-top: 5px;
+}
+
+.card-style p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.decoration h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.decoration button {
+    background-color: #0E0D12;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 0px solid transparent;
+    transition: 0.2s;
+}
+
+.decoration button:hover {
+    background-color: var(--secolor);
+}
+
+.hire-us h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.hire-us button {
+    background-color: #0E0D12;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border: 0px solid transparent;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.hire-us button:hover {
+    background-color: var(--secolor);
+}
+
+.recent-project h2 {
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 130px;
+}
+
+.project-img {
+    border: 0px solid transparent;
+    border-radius: 0px;
+    margin-bottom: 130px;
+    overflow: hidden;
+}
+
+.project-img h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.project-img-effect {
+    transition: 0.6s;
+}
+
+.project-img:hover img {
+    transform: scale(1.04);
+}
+
+.explore-button {
+    border-radius: 0px;
+    background-color: black;
+    font-weight: 600;
+    padding: 10px 33px;
+    border: 0px solid transparent;
+    transition: 0.2s;
+}
+
+.explore-button:hover {
+    background-color: var(--secolor);
+}
+
+.subscribe {
+    position: relative;
+    text-align: center;
+}
+
+.subscribe img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.subscribe-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+}
+
+.subscribe h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.subscribe button {
+    background-color: #6b7c68;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.subscribe button:hover {
+    background-color: #5b6c57;
+}
+
+
+/*ABOUT PAGE START */
+
+
+/*ABOUT PAGE START */
+
+
+/*ABOUT PAGE START */
+
+
+main h1 {
+    font-size: 90px;
+    font-family: "League Spartan", sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.about-members{
+    border-radius: 0px;
+}
+
+.about-members img{
+    border-radius: 0px;
+}
+
+.about-members h4{
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-members h5{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.project h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/*BLOG PAGE end */
+
+
+/*BLOG PAGE end */
+
+
+/*BLOG PAGE end */
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE START */
+
+
+/* CONTACT PAGE START */
+
+
+/* CONTACT PAGE START */
+
+
+.send-us{
+    border-radius:0px ;
+    height: 7vh;
+}
+
+.send-us:focus{
+    box-shadow: 0px 0px rgba(255, 255, 255, 0);
+    border-color: black;
+    border: 2px solid black;
+}
+
+.submit-message{
+    background-color: var(--secolor);
+    border: 0px solid transparent;
+    border-radius: 0px;
+    color: white;
+    padding: 12px 15px;
+    font-weight: 600;
+}
+
+.address h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.address h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.shifter-button-1{
+    border-radius: 0px;
+    background-color:var(--secolor);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.shifter-button-1:hover{
+    background-color: var(--secolor);
+    color: white;
+}
+
+.shifter-button-2{
+    border-radius: 0px;
+    text-decoration: none;
+    color: black;
+    border: 0px solid transparent;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.4s;
+}
+
+.shifter-button-2:hover{
+   border: 2px solid var(--secolor);
+}
+
+.shifter-button-{
+    border-radius: 0px;
+    background-color:var(--secolor);
+    text-decoration: none;
+    color: black;
+    border: 0px solid transparent;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}

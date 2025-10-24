@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Project based</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color: #EEEEEE;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="" width="200" height="120"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-weight: bold; font-size: 17px;">
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 nav-effect" aria-current="page" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link nav-effect" href="service.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active nav-effect" href="product.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link nav-effect" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link nav-effect" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link nav-effect" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="me-4"></a><i class="fa-solid fa-magnifying-glass d-none d-lg-inline"
+                                style="font-size: 20px; color: var(--color);"></i></li>
+                        <li><a href="#" class="me-4"></a><i class="fa-regular fa-user d-none d-lg-inline"
+                                style="font-size: 20px;color: var(--color);"></i></li>
+                        <li><a href="#" class="me-4"></a><i class="fa-solid fa-bag-shopping d-none d-lg-inline"
+                                style="font-size: 20px;color: var(--color);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main style="background-color: #EEEEEE; padding: 150px 0px 200px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Products</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="container">
+            <div class="row" style="margin-top: 50px; margin-bottom: 30px;">
+                <div class="col-12 d-flex justify-content-between">
+                    <h6 class="mt-1 d-none d-sm-block">
+                        Showing 1-2 of 16 results
+                    </h6>
+                    <form action="" class="d-none d-sm-block">
+                        <select class="form-control"
+                            style="border-radius: 0px; box-shadow: none; border: 1px solid black;">
+                            <option value="">Default sorting</option>
+                            <option value="">Sort by popularity</option>
+                            <option value="">Sort by average rating</option>
+                            <option value="">Sort by latest</option>
+                            <option value="">Sort by price:low to high</option>
+                            <option value="">Sort by price:high to low</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 1.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                            <button>Sale</button>
+                        <h4>Egestas Purus</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$79.00</h5>
+                            <span style="font-size: 15px;">$99.00</span>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 2.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Scelerisque Fermentum</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$30.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 3.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Quisque Diam</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$25.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 4.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                            <button>Sale</button>
+                        <h4>Magna Fringilla</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$79.99</h5>
+                            <span style="font-size: 15px;">$85.00</span>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 5.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Consectetur Dipiscing</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$159.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 6.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                            <button>Sale</button>
+                        <h4>Fermentum Leovel</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$35.00</h5>
+                            <span style="font-size: 15px;">$50.00</span>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22em;">
+                        <img src="products/product 7.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Habitant Morbi</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$59.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22em;">
+                        <img src="products/product 8.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Magna Fringilla</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$35.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 9.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                            <button>Sale</button>
+                        <h4>Mattis Aliquam</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$59.00</h5>
+                            <span style="font-size: 15px;">$69.00</span>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 10.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Pretium Viverra</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$45.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 11.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Venenatis Condimentum</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$59.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card view-product" style="width: 22rem;">
+                        <img src="products/product 12.webp" class="card-img-top rounded-0 product-hover position-relative"
+                            alt="...">
+                        <h4>Consectetur Dipiscing</h4>
+                        <div class="price mt-2">
+                            <h5 style="font-size: 16px;">$30.00</h5>
+                        </div>
+                        <h6>FURNITURE</h6>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center gap-3">
+                    <a href="product.html" class="btn shifter-button-1">1</a>
+                    <a href="product 2.html" class=" btn shifter-button-2">2</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer style=" background-color: #F8F8F8; height: 50%; padding: 100px;">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-4 text-center">
+                    <img src="images/logo.svg" alt="" width="150" height="80">
+                    <p style="font-weight: 600;">Aliquam in bibendum mauris. Sed vitae erat vel velit blandit pharetra
+                        vitae nec ante. Ut
+                        malesuada a urna sit amet blandit nullam lorem aliquam at eros laoreet feugiat</p>
+                    <br>
+                    <p style="font-weight: 600;">Bibendum mauris sed vitae erat vel velit blandit pharetra vitae nec
+                        ante malesuada blandit
+                        pharetra.</p>
+                </div>
+
+                <div class="col-lg-2 cate text-center">
+                    <h5>Categories</h5>
+                    <a href="#">Decor (2)</a>
+                    <a href="#">Accessories (3)</a>
+                    <a href="#">Furniture (9)</a>
+                    <a href="#">Lightning (2)</a>
+                    <a href="#">Lightning(1)</a>
+                </div>
+
+                <div class="col-lg-3 cate text-center">
+                    <h5>Information</h5>
+                    <a href="#">About us</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Terms & condition</a>
+                    <a href="#">privacy policy</a>
+                    <a href="#">Customer services</a>
+                </div>
+
+                <div class="col-lg-3 cate text-center">
+                    <h5>Contact us</h5>
+                    <a href="#">Phone: (+63) 555 1212</a>
+                    <a href="#">Fax: (+63) 555 0100</a>
+                    <br>
+                    <p>Need help or have a question?</p>
+                    <p>Contact us at: info@mail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="container">
+
+        <div class="row mt-5">
+            <div class="col-lg-6 text-center text-md-center">
+                <h4 style="font-size: 20px; font-weight: 700; margin-bottom: 35px;">© Copyright 2025 | Project Website
+                    Made By Daniyal.</h4>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-lg-3 text-center text-md-center">
+                <img src="images/payment-icons.svg" alt="" width="300" height="60" style="margin-top: -20px;">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
